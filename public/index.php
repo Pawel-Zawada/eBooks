@@ -22,7 +22,7 @@
 		<form action="calc.php" method="POST">
 			<fieldset class="form-group">
 				<div class="form-group">
-					<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+					<label for="years">Amount in &euro;</label>
 					<div class="input-group">
 					<div class="input-group-addon">&euro;</div>
 					<input type="text" class="form-control" id="startSum" placeholder="Amount" name="startSum">
@@ -31,6 +31,8 @@
 			</fieldset>
 		    <fieldset class="form-group">
 			    <label for="years">Interest rate in %</label>
+			    <div class="input-group">
+			    <div class="input-group-addon">%</div>
 			    <select class="form-control c-select" name="percentage">
 			      <option>1</option>
 			      <option>2</option>
@@ -53,10 +55,11 @@
 			      <option>19</option>
 			      <option>20</option>
 			    </select>
+			    </div>
   			</fieldset>
   			<fieldset class="form-group">
 			    <label for="years">Amount of years</label>
-			    <input type="number" class="form-control" placeholder="Amount of years" name="years">
+			    <input type="number" min="1" class="form-control" placeholder="Amount of years" name="years">
   			</fieldset>
   			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
