@@ -1,3 +1,7 @@
+Interest Calculation
+Geschreven in PHP
+Door Pawel Zawada
+
 Scotch Box
 ==========
 
