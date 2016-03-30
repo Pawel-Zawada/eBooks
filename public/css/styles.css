@@ -1,0 +1,9 @@
+.navbar.navbar-default {
+	margin-bottom: 0;
+}
+
+#topotron {
+	background-image: url('../img/nature_big_tree_hd.jpg');
+	background-size: 140%;
+	background-position: top;
+}
